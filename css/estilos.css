@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+}
+.contenido{
+  margin:auto;
+  max-width: 900px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  background-color: #5b7989;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  text-shadow: #02010a 2px 2px 0;
+}
+nav a{
+  color: #fff;
+  margin-left: 1.5vw;
+}
+nav .actual{
+  text-decoration: none;
+}
+.central{
+  background-color: #82c3a6;
+}
+.central .figCentral{
+  padding: 2vh 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.central .figCentral .imgCentral{
+  width: 70%;
+}
+.secundaria{
+  background-color:  #d5c75f;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.secundaria .figPaisaje .imgPaisaje{
+  width: 60%;
+}
+.secundaria .figRetrato .imgRetrato{
+  width: 60%;
+}
+figcaption{
+  text-decoration: underline;
+}
+footer{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
