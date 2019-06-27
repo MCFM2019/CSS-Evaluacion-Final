@@ -28,6 +28,13 @@ header h1{
   text-align: left;
   text-shadow: #02010a 2px 2px 0;
 }
+img{
+  width: 60%;
+  box-shadow: #02010a 2px 2px 0;
+}
+a{
+  color: #000;
+}
 nav a{
   color: #fff;
   margin-left: 1.5vw;
@@ -44,9 +51,6 @@ nav .actual{
   flex-direction: row;
   justify-content: center;
 }
-.central .figCentral .imgCentral{
-  width: 70%;
-}
 .secundaria{
   background-color:  #d5c75f;
   border: 1px solid #fff;
@@ -54,7 +58,7 @@ nav .actual{
   flex-direction: row;
   justify-content: center;
 }
-.secundaria .Centrar{
+.secundaria .CentrarConLeyenda{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,22 +66,45 @@ nav .actual{
   padding: 2vh 0;
 }
 .secundaria .figPaisaje .imgPaisaje{
-  width: 60%;
   transition: transform 1s;
 }
 .secundaria .figPaisaje .imgPaisaje:hover{
   transform: rotate(10deg);
+  box-shadow: #82c3a6 2px 2px 0;
 }
 .secundaria .figRetrato .imgRetrato{
-  width: 60%;
   transition: transform 1s;
 }
 .secundaria .figRetrato .imgRetrato:hover{
   transform: translate(20px,-5px);
+  box-shadow: #82c3a6 2px 2px 0;
 }
-a{
-  color: #000;
-
+.galeria{
+  background-color:  #d5c75f;
+  display: flex;
+  flex-direction: column;
+}
+.CentrarGaleria{
+  display: flex;
+  justify-content: center;
+  padding: 3vh 0;
+}
+.galeria .Fila1{
+  display: flex;
+  flex-direction: row;
+}
+.galeria .Fila2{
+  display: flex;
+  flex-direction: row;
+}
+.fig1{
+  filter: blur(10px);
+}
+.fig2, .fig4, .fig6{
+  filter: grayscale(100%);
+}
+.fig3{
+  filter:sepia(90%);
 }
 footer{
   border-radius: 0 0 10px 10px;
