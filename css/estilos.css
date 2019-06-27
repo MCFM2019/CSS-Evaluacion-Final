@@ -25,6 +25,7 @@ header{
   align-items: center;
 }
 header h1{
+  text-align: left;
   text-shadow: #02010a 2px 2px 0;
 }
 nav a{
@@ -53,18 +54,35 @@ nav .actual{
   flex-direction: row;
   justify-content: center;
 }
+.secundaria .Centrar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh 0;
+}
 .secundaria .figPaisaje .imgPaisaje{
   width: 60%;
+  transition: transform 1s;
+}
+.secundaria .figPaisaje .imgPaisaje:hover{
+  transform: rotate(10deg);
 }
 .secundaria .figRetrato .imgRetrato{
   width: 60%;
+  transition: transform 1s;
 }
-figcaption{
-  text-decoration: underline;
+.secundaria .figRetrato .imgRetrato:hover{
+  transform: translate(20px,-5px);
+}
+a{
+  color: #000;
+
 }
 footer{
   border-radius: 0 0 10px 10px;
   background-color: #C6d5c5;
+  padding: 3vh 2vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
